@@ -32,6 +32,151 @@ setTimeout(function() {
 }, 1000)
 */
 
+ /*
 setInterval(function() {
     console.log('day la thong bao' + Math.random())
-}, 1000)
+}, 500)
+*/
+
+
+
+
+
+/*
+Toán tử trong Javascript
+1. Toán tử số học - Arithmetic
+2. Toán tử gán - Assignment
+3. Toán tử so sánh - Comparison
+4. Toán tử Logic - Logical
+ */
+
+/* 1
+var a = 1+2
+console.log(a)
+*/
+
+/* 2
+var fullName = 'Huy'
+*/
+
+/* 3
+var a = 1
+var b = 2 
+if (a < b) {
+    alert('Dung')
+}
+*/
+
+/* 4
+var a = 1
+var b = 2
+
+if (a > 0 && b > 0) {
+    alert("a & b lon hon 0")
+*/
+
+
+
+
+
+/** Toán tử số học
+ +     ---> Cộng
+ -     ---> Trừ
+ *     ---> Nhân
+ **    ---> Luỹ thừa
+ /     ---> Chia
+ %     ---> Chia lấy số dư
+ ++    ---> Tăng một giá trị số
+ --    ---> Giảm một giá trị số
+ */
+
+ /*
+ var a = 1
+ var b = 2
+
+ var c = 1120 % 2
+ console.log(c)
+ */
+
+
+ /*
+ var a =5 
+
+ a++
+ a--
+ a--
+
+ console.log(a)
+ */ 
+
+
+ // Toán tử ++ --
+//  Prefix & Postfix (tiền tố & hậu tố)
+
+
+/*
+var a = 6
+
+a++
+
+console.log(a)
+*/
+
+/*
+var number = 6 
+
+var output = number++ *2 - --number *2
+
+console.log('output', output)
+*/
+
+
+
+
+
+/* Toán tử chuỗi - String Operato */
+
+
+/*
+var firstName = 'Huy'
+
+var lastName = 'Pham'
+
+console.log(firstName + ' ' + lastName)
+*/
+
+
+/*
+var name = 'Son'
+
+name = name + ' Dang'
+
+console.log(name)
+*/
+
+
+
+
+/* Toán tử so sánh 
+
+Toán tử
+==      -->    Bằng
+!=      -->    Không bằng
+>       -->    Lớn hơn
+<       --<    Nhỏ hơn
+>=      -->    Lớn hơn hoặc bằng
+<=      -->    Nhỏ hơn hoặc bằng
+
+*/
+
+
+/*
+var a = 1 
+var b = 2 
+
+var isSuccess = a > b
+
+console.log(isSuccess)
+*/
+ 
+
