@@ -1,3 +1,6 @@
+// ------------------------------------------
+
+
 /*
 Một số hàm Built-in
 1. Alert
@@ -9,6 +12,10 @@ Một số hàm Built-in
  */
 
 
+
+
+
+// ------------------------------------------
 
 // khai bao bien
 // var fullName = 'Pham Quang Huy 22'
@@ -42,8 +49,9 @@ setInterval(function() {
 
 
 
-/*
-Toán tử trong Javascript
+// ------------------------------------------
+
+/* Toán tử trong Javascript
 1. Toán tử số học - Arithmetic
 2. Toán tử gán - Assignment
 3. Toán tử so sánh - Comparison
@@ -54,6 +62,7 @@ Toán tử trong Javascript
 var a = 1+2
 console.log(a)
 */
+
 
 /* 2
 var fullName = 'Huy'
@@ -67,6 +76,7 @@ if (a < b) {
 }
 */
 
+
 /* 4
 var a = 1
 var b = 2
@@ -78,6 +88,8 @@ if (a > 0 && b > 0) {
 
 
 
+
+// ------------------------------------------
 
 /** Toán tử số học
  +     ---> Cộng
@@ -110,7 +122,10 @@ if (a > 0 && b > 0) {
  */ 
 
 
- // Toán tử ++ --
+
+// ------------------------------------------
+
+// Toán tử ++ --
 //  Prefix & Postfix (tiền tố & hậu tố)
 
 
@@ -130,9 +145,12 @@ var output = number++ *2 - --number *2
 console.log('output', output)
 */
 
+// var person = "hege"
 
 
 
+
+// ------------------------------------------
 
 /* Toán tử chuỗi - String Operato */
 
@@ -157,7 +175,9 @@ console.log(name)
 
 
 
-/* Toán tử so sánh 
+// ------------------------------------------
+
+/* Toán tử so sánh - 1 
 
 Toán tử
 ==      -->    Bằng
@@ -170,15 +190,186 @@ Toán tử
 */
 
 
-/*
+
+
+// ------------------------------------------
+
+/* Kiểu dữ liệu Boolean
 var a = 1 
 var b = 2 
 
 var isSuccess = a > b
-
 console.log(isSuccess)
 */
- 
+
+
+
+
+// ------------------------------------------
+
+/* If và Else*/
+/** _Các giá trị false ( ngoài các giá trị này luôn true)
+ * 0
+ * false
+ * '' - ""
+ * undefined
+ * NaN
+ * null
+ */
+
+/* VD If & Else:
+var isSuccess = 2 > 1 
+
+if (isSuccess) {
+    console.log('dieu kien dung')
+} else {
+    console.log('dieu kien sai ')
+}
+*/
+
+
+
+
+
+// ------------------------------------------
+
+/** Toán tử logical
+ * 1. && - And : Tất cả phải đúng 
+ * 2. || - Or : 1 trong các vế  đúng là đc vào
+ * 3. ! - Not : đúng thành sai - sai thành đúng 
+ */
+
+
+/* VD : &&
+var a = 1 
+var b = 2 
+var c = 3 
+
+if (a > 0 && b > 0) {
+    console.log('True')
+}
+*/
+
+
+/* VD: || 
+var a = 1
+var b = 2 
+var c = 3 
+
+if ( a < 0 || b > 0 || c > 0 ) {
+    console.log('True')
+}
+*/
+
+
+/* VD: !
+var a = 1 
+var b = 2 
+var c = 3 
+
+if (!(a < 0)) {
+    console.log ('True')
+}
+*/
+
+
+
+
+// ------------------------------------------
+
+/* Kiểu dữ liệu trong Javascript 
+
+1. Dữ liệu nguyên thuỷ - Primitive Data
+    - Number
+    - String
+    - Boolean
+    - Undefined
+    - Null 
+    - Symbol
+
+2. Dữ liệu phức tạp - Complex Data
+    - Function
+    - Object 
+*/ 
+
+
+
+
+// ------------------------------------------
+
+/* Toán tử so sánh - P2 */
+/**
+ *  ===
+ *  !==
+ */
+
+/* VD: 
+var a = 1 
+var b = 1 
+
+console.log(a !== b)
+*/
+
+
+
+// ------------------------------------------
+/* Toán tử Logical và câu lệnh điều kiện If */
+
+/* 
+var a = 1 
+var b = 2 
+
+if ( a < b ) {
+    console.log ('True')
+} else {
+    console.log('False')
+}
+ */
+
+/* 
+var a = 1
+var b = 2
+
+var result = a < b && a > 0
+
+console.log(result)
+*/
+
+
+/*
+var a = 1
+var b = 2 
+
+var result = 'A' && 'B' && 'C'
+
+if (result) {
+    console.log('True')
+} else {
+    console.log('False')
+}
+*/
+
+var a = 1
+var b = 2
+
+var result = 'A' || 'B' || 'C' || 'D'
+
+console.log('result', result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -- JS INTRODUCTION --
 
@@ -202,8 +393,12 @@ _sửa luôn bên trong file .html _có thể đặt trong <head> hoặc <body>
 document.getElementById("demo").innerHTML = "My First JavaScript";
 </script>
 
- */
-
 function myFunction() {
     document.getElementById('demo').innerHTML = "hello"
 }
+
+*/
+
+
+
+
