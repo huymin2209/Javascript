@@ -282,7 +282,7 @@ if (!(a < 0)) {
 1. Dữ liệu nguyên thuỷ - Primitive Data
     - Number
     - String
-    - Boolean
+    - Boolean: 
     - Undefined
     - Null 
     - Symbol
@@ -291,6 +291,26 @@ if (!(a < 0)) {
     - Function
     - Object 
 */ 
+
+// Number type
+var a = 1 
+var b = 2.5
+
+// String type 
+var fullName = 'Huy Pham'
+
+// Boolean (thể hiện đúng sai)
+var isSuccess = true
+var isSuccess = false
+
+// Undefined type (1 biến ko gán giá trị cho nó)
+var age
+
+// Null (không có gì)
+var isNull = null
+
+// Symbol (có tính duy nhất)
+var id = Symbol('id')
 
 
 
@@ -304,7 +324,7 @@ if (!(a < 0)) {
  */
 
 /* VD: 
-var a = 1 
+var a = '1' 
 var b = 1 
 
 console.log(a !== b)
@@ -312,7 +332,9 @@ console.log(a !== b)
 
 
 
+
 // ------------------------------------------
+
 /* Toán tử Logical và câu lệnh điều kiện If */
 
 /* 
@@ -349,15 +371,39 @@ if (result) {
 }
 */
 
+/*
 var a = 1
 var b = 2
 
 var result = 'A' || 'B' || 'C' || 'D'
 
 console.log('result', result)
+*/
 
 
 
+
+// ------------------------------------------
+
+/* Chuỗi Trong JavaScript
+
+1. Tạo chuỗi
+    - Các cách để tạo chuỗi
+    - Nên dùng cách nào? Lý do?
+    -Kiểm tra data type
+
+2. Một số case sử dụng trong backslash (\)
+
+3. Xem độ dài chuỗi
+
+4. Chú ý độ dài khi viết code
+
+5. Template string ES6
+*/
+
+// VD:
+
+var fullName
 
 
 
