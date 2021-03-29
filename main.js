@@ -180,3 +180,30 @@ console.log(isSuccess)
 */
  
 
+/* -- JS INTRODUCTION --
+
+document.getElementById("demo").innerHTML = "Hello PQH";
+
+document.getElementById("demo").style.fontSize = "50px"
+
+document.getElementById('demo').style.display = 'none'
+
+document.getElementById('demo').style.display = 'block'
+
+*/
+
+
+
+/* -- JS WHERE TO --
+
+_sửa luôn bên trong file .html _có thể đặt trong <head> hoặc <body>
+
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+
+ */
+
+function myFunction() {
+    document.getElementById('demo').innerHTML = "hello"
+}
